@@ -102,10 +102,6 @@ public class ModelUtils {
                 null, null, null, null, null );
     }
 
-    public static Estimate getEstimate(){
-        return new Estimate(1L, (byte) 10, getUser(), getPlace(), getComment());
-    }
-
     public static AddCommentDto getAddCommentDto(){
         return new AddCommentDto("comment", null, null);
     }
